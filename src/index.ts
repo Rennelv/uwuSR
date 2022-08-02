@@ -1,6 +1,6 @@
 /**
- * @package CrepeSR
- * @author Crepe-Inc
+ * @package uwuSR
+ * @author uwu-Inc
  * @license AGPL-3.0
  */
 import Interface from "./commands/Interface";
@@ -9,8 +9,8 @@ import SRServer from "./server/kcp/SRServer";
 import Logger from "./util/Logger";
 import ProtoFactory from "./util/ProtoFactory"
 
-const c = new Logger("CrepeSR");
-c.log(`Starting CrepeSR...`);
+const c = new Logger("uwuSR");
+c.log(`Starting uwuSR...`);
 ProtoFactory.init();
 Interface.start();
 HttpServer.getInstance().start();

@@ -7,7 +7,7 @@ const DEFAULT_CONFIG = {
     VERBOSE_LEVEL: 1,
 
     // MongoDB
-    MONGO_URI: "mongodb://localhost:27017/crepesr",
+    MONGO_URI: "mongodb://localhost:27017/uwusr",
 
     // HTTP
     HTTP: {
@@ -17,7 +17,7 @@ const DEFAULT_CONFIG = {
 
     // Dispatch
     DISPATCH: [{
-        DISPATCH_NAME: "CrepeSR",
+        DISPATCH_NAME: "uwuSR",
         DISPATCH_URL: "http://localhost/query_gateway"
     }],
 

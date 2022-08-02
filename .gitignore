@@ -107,6 +107,6 @@ dist
 # VS Code
 .vscode/
 
-# CrepeSR
+# uwuSR
 config.json
 src/data/*
